@@ -1,0 +1,67 @@
+.IBAContainer {
+  width: 100%;
+  text-align: center;
+}
+.IBAContainer .HeaderIBA {
+  background-color: black;
+  font-family: "inter", sans-serif;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+.productDetail {
+  text-align: center;
+}
+.InputSection {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.InputSection label {
+  margin-right: 20px;
+}
+.InputSection input {
+  width: 250px;
+  padding: 5px;
+}
+
+.productDetail button {
+  background-color: blueviolet;
+  color: aliceblue;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
